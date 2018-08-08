@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         http_response_code(200);
         echo "Gracias! el mensaje se envio correctamente.";
 
-        echo "<script language=Javascript> location.href=\"http://www.agricolaelalamo.com/web2018\"; </script>";
+        echo "<script language=Javascript> location.href=\"http://www.fruticolavolcan.cl\"; </script>";
     } else {
         // Set a 500 (internal server error) response code.
         http_response_code(500);
