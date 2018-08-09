@@ -2071,10 +2071,10 @@ article.main-single .direction ul li a:hover {
 }
 
 .parallax1 { background-image: url(../images/parallax/01.jpg); background-repeat: no-repeat;}
-.parallax2 { background-image: url(../images/parallax/gif.gif);}
-.parallax4 { background-image: url(../images/parallax/04.jpg);}
+.parallax2 { background-image: url(../images/parallax/01.jpg);}
+.parallax4 { background-image: url(../images/parallax/10.jpg);}
 .parallax3 { background-image: url(../images/parallax/02.jpg);}
-.parallax5 { background-image: url(../images/parallax/05.jpg);}
+.parallax5 { background-image: url(../images/parallax/04.jpg);}
 .parallax6 { background-image: url(../images/parallax/06.jpg);}
 .parallax7 { background-image: url(../images/parallax/07.jpg);}
 .parallax9 { background-image: url(../images/parallax/09.jpg);}
