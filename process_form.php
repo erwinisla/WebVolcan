@@ -23,18 +23,18 @@ if($_POST['email'] == '')
 
 //Option 1) Send confirmation email. More info here: http://php.net/manual/es/function.mail.php
 
-
+/*
 mail("eisla@fruticolavolcan.cl","New subscriber","Email: ".$_POST['email']);
-
+*/
 
 //Option 2) Save subscriber on TXT file. More info here: http://www.w3schools.com/php/php_file_create.asp
 
-/*
+
 $myfile = fopen("subscribers.txt", "a") or die("Unable to open file!");
 $txt = $_POST['email']."\n";
 fwrite($myfile, $txt);
 fclose($myfile);
-*/
+
 
 //And send success message:
 $msg = 'Emos guardado tu e-mail, te avisaremos cuando este todos listo.';
