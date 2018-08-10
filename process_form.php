@@ -31,7 +31,7 @@ mail("eisla@fruticolavolcan.cl","New subscriber","Email: ".$_POST['email']);
 
 
 $myfile = fopen("subscribers.txt", "a") or die("Unable to open file!");
-$txt = $_POST['email']."\n";
+$txt = $_POST['email';]."\n";
 fwrite($myfile, $txt);
 fclose($myfile);
 
