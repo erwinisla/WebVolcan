@@ -24,7 +24,7 @@ if($_POST['email'] == '')
 //Option 1) Send confirmation email. More info here: http://php.net/manual/es/function.mail.php
 
 
-mail("eisla@fruticolavolcan.cl","New subscriber","Email: ".$_POST['email']);
+mail("eisla@fruticolavolcan.cl","Avísame cuando este lista la pagina","Email: ".$_POST['email']);
 
 
 //Option 2) Save subscriber on TXT file. More info here: http://www.w3schools.com/php/php_file_create.asp
@@ -38,7 +38,7 @@ fclose($myfile);
 
 
 //And send success message:
-$msg = 'Emos guardado tu e-mail, te avisaremos cuando este todos listo.';
+$msg = 'Hemos guardado tu e-mail, te avisaremos cuando este todos listo.';
 echo '<div class="alert alert-success"><p><i class="fa fa-check"></i> '.$msg.'</p></div>';
 return true;
 
