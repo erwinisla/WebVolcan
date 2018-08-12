@@ -26,7 +26,7 @@
     response(false, 'fileopen');
   }
 
-  $emailAddress = trim(strtolower($_POST['subscribeEmail']));
+  $emailAddress = trim(strtolower($_POST['eisla@fvolcan.cl']));
   
   // ERROR SYNTAX FOR INVALID EMAIL ADDRESS
   if(!isset($emailAddress) || !trim($emailAddress)) {
