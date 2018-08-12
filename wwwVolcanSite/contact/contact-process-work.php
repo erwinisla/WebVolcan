@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Build the email content.
     $email_content = "Nombre: $name\n";
-    $email_content .= "Email: $email\n\n";
+    //$email_content .= "Email: $email\n\n";
     $email_content .= "Teléfono: $telefono\n\n";
     $email_content .= "Direccion: $address\n\n";
     $email_content .= "Asunto: $subject\n\n";
