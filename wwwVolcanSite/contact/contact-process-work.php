@@ -23,12 +23,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $recipient = "eisla@agricolaelalamo.com";
 
     // Set the email subject.
-    $subject = "Nuevo contactode $name $direccion solicitud de trabajo";
+    $subject = "Nombre: $name  Direccion: $direccion // solicitud de trabajo";
 
     // Build the email content.
     $email_content = "Nombre: $name\n";
-    //$email_content .= "Email: $email\n\n";
+    $email_content .= "Email: $email\n\n";
     $email_content .= "Teléfono: $telefono\n\n";
+    $email_content .= "Sector: $Sector\n\n";
     $email_content .= "Direccion: $address\n\n";
     $email_content .= "Asunto: $subject\n\n";
     $email_content .= "Mensaje:\n$message\n";
