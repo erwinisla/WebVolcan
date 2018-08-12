@@ -9,6 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message   = trim($_POST["your-message"]);
     $direccion = trim($_POST["address"]);
     $telefono  = trim($_POST["phone"]);
+    $Sector  = trim($_POST["Sector"]);
 
     // Check that data was sent to the mailer.
     if (empty($name) or empty($message) or !filter_var($email, FILTER_VALIDATE_EMAIL)) {
